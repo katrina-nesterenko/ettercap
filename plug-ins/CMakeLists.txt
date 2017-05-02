@@ -20,6 +20,7 @@ else(HAVE_PCRE)
 endif(HAVE_PCRE)
 
 set(PLUGINS arp_cop
+stat_exporter
 autoadd
 chk_poison
 dns_spoof
